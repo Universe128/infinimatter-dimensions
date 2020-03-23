@@ -1,0 +1,150 @@
+@font-face {
+  font-family: Typewriter;
+  src: url("https://cdn.glitch.com/b0b4f18a-9c86-4c2e-8555-6f6d97666bc3%2FMonospaceTypewriter.ttf?v=1577653228767");
+}
+
+title {
+  font-family: Typewriter;
+  margin: 2em;
+  background: white;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+body {
+  font-family: Typewriter;
+  margin: 2em;
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+button-antim {
+  font-family: Typewriter;
+  transition-duration: 0.3s;
+  background: #ABB5E6;
+  border: 2px solid #8488C4;
+  border-radius: 4px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button-antim:hover {
+  color: #FFF;
+  background: #8488C4;
+}
+
+button-prest {
+  font-family: Typewriter;
+  transition-duration: 0.3s;
+  background: #63CC00;
+  border: 2px solid #59B200;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+button-prest:hover {
+  color: #000000;
+  background: #59B200;
+}
+
+news {
+    color: #000000;
+    /*transition: transform 1s;*/
+    position: relative;
+    display: inline-block;
+    font-family: Typewriter;
+    font-size: 15px;
+    white-space: nowrap;
+    font-weight: bold
+}
+
+button-special {
+  font-family: Typewriter;
+  transition-duration: 0.3s;
+  background: linear-gradient(#432EFE, #DAAFFE);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  animation: box 4s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes button-special {
+  0% {
+    color: #0E0072;
+    text-shadow: 0px 0px 3px #0E0072, 0px 0px 6px #ffffff;
+  }
+  50% {
+    color: #2B188C;
+    text-shadow: 0px 0px 6px #2B188C, 0px 0px 6px #ffffff;
+  }
+  100% {
+    color: #0E0072;
+    text-shadow: 0px 0px 3px #0E0072, 0px 0px 6px #ffffff;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.tabBtn {
+  font-size: 1em;
+}
+
+.num {
+  font-size: 40.2px;
+}
+
+.storebtn {
+  color: black;
+  background: #F2F2F2;
+  font-weight: bold;
+  font-family: Typewriter;
+  border: 1px solid #127A20;
+  width: 120px;
+  height: 25px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.storebtn:hover {
+  color: #FFF;
+  background: #5AC467;
+}
+
+.unavailablebtn {
+  color: #000000;
+  background: #A3A3A3;
+  font-weight: bold;
+  font-family: Typewriter;
+  border: 1px solid #B84B5F;
+  width: 120px;
+  height: 25px;
+  transition-duration: 0.2s;
+  border-radius: 4px;
+  font-size: 13px;
+  vertical-align: top;
+}
+
+.unavailablebtn:hover {
+  color: #000000;
+  background: #B84B5F;
+}

@@ -12,7 +12,7 @@ news.message = function() {
 	let textWidth = e.clientWidth;
 	let parentWidth = e.parentElement.clientWidth;
 	e.style.transition = '';
-	e.style.transform = 'translateX(' + (parentWidth + 10) + 'px)';;
+	e.style.transform = 'translateX(' + (parentWidth + 10) + 'px)';
 	let dist = parentWidth + e.clientWidth
 	let rate = 100;
 	let transformDuration = dist / rate;
@@ -27,7 +27,7 @@ news.news = [
 	'The code for this news ticker is totally not stolen from Antimatter Dimensions or True Infinity',
 	'This game won\'t be released soon',
 	'This news is false',
-	'<a style=\color:black\' href=\'https://reinhardt-c.github.io/FalseInfinity\'>World\'s Best Game</a>',
+	'<a style=color:black\' href=\'https://reinhardt-c.github.io/FalseInfinity\'>World\'s Best Game</a>',
 	'This game isn\'t unbalanced, it\'s just not balanced very well',
 	'This game isn\'t unbalanced, you\'re just playing too fast',
 	'This game isn\'t unbalanced, you\'re just used to more balanced games',
